@@ -1,7 +1,7 @@
 # bashwordpress
 Installation de wordpress en ligne de commande avec un script
 
-Effectuer les démarche suivante avant installationn ->
+Effectuer les démarche suivante avant installation ->
 
 Installation de sudo apt-get install mysql-server
 
