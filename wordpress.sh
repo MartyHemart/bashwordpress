@@ -109,8 +109,9 @@ while [ opt != '' ]
                 read -e password break;
                 echo "entrer votre email"
                 read -e email break;
-            sudo wp core install --url=$urlname --title=$titre --admin_user=$admin --admin_password=$password --admin_email=$email --allow-root; option_picked "La derniere étape est terminé, l'installation de WordPress est terminé"; show_menu;
-            menu;
+                sudo wp core install --url=$urlname --title=$titre --admin_user=$admin --admin_password=$password --admin_email=$email --allow-root; option_picked "La derniere étape est terminé, l'installation de WordPress est terminé";
+                sudo  sudo wp plugin install duplicator wordfence --allow-root; show_menu;
+                menu;
                 ;;
             9) clear;
                option_picked "Recherche";
